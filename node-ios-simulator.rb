@@ -7,8 +7,6 @@ class NodeIosSimulator < Formula
     cellar :any
   end
 
-  depends_on "python@2" => :build
-
   def install
     system "./build-ios.sh"
   end
